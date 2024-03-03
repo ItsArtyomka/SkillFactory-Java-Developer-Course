@@ -1,0 +1,9 @@
+-------------------------------------------------------------------------------
+Test set: com.artyomka.telegramcurrencybot.service.FinanceServiceTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.859 s <<< FAILURE! - in com.artyomka.telegramcurrencybot.service.FinanceServiceTest
+com.artyomka.telegramcurrencybot.service.FinanceServiceTest  Time elapsed: 0.858 s  <<< ERROR!
+java.lang.IllegalStateException: Failed to load ApplicationContext
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSourceScriptDatabaseInitializer' defined in class path resource [org/springframework/boot/autoconfigure/sql/init/DataSourceInitializationConfiguration.class]: Invocation of init method failed; nested exception is java.lang.IllegalStateException: No data scripts found at location 'classpath:db/test-data.sql'
+Caused by: java.lang.IllegalStateException: No data scripts found at location 'classpath:db/test-data.sql'
+

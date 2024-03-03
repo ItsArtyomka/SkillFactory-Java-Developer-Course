@@ -1,0 +1,35 @@
+Write an abstract Player class. In it create:
+---
+integer variable hp - health;
+integer variable level - level;
+string variable type - player class;
+string variable weapon - player's weapon;
+constructor taking parameters (hp, level, type, weapon);
+an abstract method that returns the string getFullInfo();
+an abstract method without the return value of levelUp();
+an abstract method that returns the boolean value doDamage().
+---
+
+Create a Wizard class and inherit it from the Player class. Create in it:
+---
+an integer variable manaLevel - mana level;
+a string variable element - the wizard's element;
+implement a constructor that takes parameters (hp, level, type, weapon, manaLevel, element);
+implement method levelUp(), when you call it, the variable level should increase by 1;
+Implement getFullInfo() method, which will return a string with all parameters separated by spaces in order: hp, level, type, weapon, manaLevel, element;
+Implement a method doDamage(), which when manaLevel >= 10 will decrease manaLevel by 10 units and return true, and when manaLevel < 10 will return false.
+---
+
+Create a Warrior class and inherit it from the Player class. Here you should create:
+---
+a string variable armor - warrior's armor;
+Implement a constructor that takes parameters (hp, level, type, weapon, armor);
+Implement method levelUp(), when you call it the variable Level should increase by 1;
+Implement getFullInfo() method, which will return a string with all parameters separated by spaces in order: hp, level, type, weapon, armor.
+Implement method doDamage(), which will return true when called.
+---
+
+Exercise Checker Output:
+Your solution was successfully submitted.
+You passed 100% of all tests.
+Got it the first time! :)

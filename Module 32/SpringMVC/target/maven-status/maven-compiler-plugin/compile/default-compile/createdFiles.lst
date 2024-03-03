@@ -1,0 +1,4 @@
+com\artyomka\springmvc\dto\StudentData.class
+com\artyomka\springmvc\HelloController.class
+com\artyomka\springmvc\filter\LoggingFilter.class
+com\artyomka\springmvc\SpringMvcApplication.class

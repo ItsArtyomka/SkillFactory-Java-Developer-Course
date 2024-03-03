@@ -1,0 +1,66 @@
+{
+  "results": [
+    {
+      "gender": "male",
+      "name": {
+        "title": "Mr",
+        "first": "پوریا",
+        "last": "احمدی"
+      },
+      "location": {
+        "street": {
+          "number": 7918,
+          "name": "شهید دکتر آیت"
+        },
+        "city": "اردبیل",
+        "state": "ایلام",
+        "country": "Iran",
+        "postcode": 40581,
+        "coordinates": {
+          "latitude": "18.4759",
+          "longitude": "-144.8322"
+        },
+        "timezone": {
+          "offset": "+8:00",
+          "description": "Beijing, Perth, Singapore, Hong Kong"
+        }
+      },
+      "email": "pwry.hmdy@example.com",
+      "login": {
+        "uuid": "f0dc6125-deef-41bd-9664-c550c2d49c1f",
+        "username": "happyelephant784",
+        "password": "govols",
+        "salt": "2638eSYu",
+        "md5": "9591499933204476e0775f1d48d2b3e7",
+        "sha1": "ff7f2fe29d1dc996a6f17fdbec281ecd011bd389",
+        "sha256": "7d7131f4353fcb6e259ef286ab5738478750845708f01e78a968df9debf7706a"
+      },
+      "dob": {
+        "date": "1963-04-02T00:42:23.789Z",
+        "age": 60
+      },
+      "registered": {
+        "date": "2009-01-28T01:01:07.196Z",
+        "age": 14
+      },
+      "phone": "081-82580999",
+      "cell": "0955-324-4299",
+      "id": {
+        "name": "",
+        "value": null
+      },
+      "picture": {
+        "large": "https://randomuser.me/api/portraits/men/3.jpg",
+        "medium": "https://randomuser.me/api/portraits/med/men/3.jpg",
+        "thumbnail": "https://randomuser.me/api/portraits/thumb/men/3.jpg"
+      },
+      "nat": "IR"
+    }
+  ],
+  "info": {
+    "seed": "e5a8654bc0c7966b",
+    "results": 1,
+    "page": 1,
+    "version": "1.4"
+  }
+}

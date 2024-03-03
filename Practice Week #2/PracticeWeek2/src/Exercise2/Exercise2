@@ -1,0 +1,12 @@
+Create "Playable" interface that has methods:
+- String move();
+- String attack();
+- String defence();
+Then create class "Orc" and implement the Playable interface:
+- move() method should return string "run"
+- attack() methods return string "ax blow"
+- defence() methods return string "block"
+
+Exercise Checker Output:
+Your solution was successfully submitted.
+You passed 100% of all tests.

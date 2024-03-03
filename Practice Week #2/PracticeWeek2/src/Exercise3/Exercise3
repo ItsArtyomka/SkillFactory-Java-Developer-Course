@@ -1,0 +1,14 @@
+Create interfaces:
+- Movable (can move), in it create a void move() method;
+- Edible (can be eaten), in it create a void beEaten() method;
+- Eat (can eat), in it create a void eat() method.
+
+Create classes Dog, Cat, Mouse.
+
+- A Cat can move around, can eat someone, and can be eaten.
+- Mouse can move around and can be eaten.
+- Dog can move around and eat someone.
+
+Exercise Checker Output:
+Your solution was successfully submitted.
+You passed 100% of all tests.

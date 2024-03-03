@@ -1,0 +1,23 @@
+Write an abstract Transport class. It must have:
+- an integer field fuel;
+- an integer field speed;
+- a constructor that accepts fuel and speed;
+- an abstract method canMove(int n), which returns a logical (boolean) value - whether the vehicle can travel n kilometers;
+- abstract method getFuelLevel(), which returns an integer - the fuel level.
+
+Write a class Car which is a descendant of the Transport class and has:
+- an integer field maxPassengers - the maximum number of passengers;
+- a constructor that takes fuel, speed, maxPassengers;
+- getFuelLevel() method which returns an integer number - fuel;
+- method canMove(int n), should return true if fuel >= n and reduce fuel level by n, otherwise return false;
+- getMaxPassenger() method, which returns an integer - the maximum number of passengers.
+
+Write a Plane class which is a descendant of the Transport class and has:
+- a constructor that takes fuel, speed;
+- getFuelLevel() method that returns fuel;
+- method canMove(int n) should return true if fuel >= n, and - reduce fuel level by n, otherwise return false;
+- method fillFuel(int n), which returns nothing, but increases fuel level by n.
+
+Exercise Checker Output:
+Your solution was successfully submitted.
+You passed 100% of all tests.

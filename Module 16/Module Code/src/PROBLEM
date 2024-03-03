@@ -1,0 +1,6 @@
+java -XX:NativeMemoryTracking=detail
+
+The line above is the line that I want to run first but the console just freezes.
+I want to use Native Memory Tracking and at the moment I am stuck at the freeze.
+
+TODO: Play around until the solution is found.

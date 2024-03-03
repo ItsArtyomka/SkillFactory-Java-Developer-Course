@@ -1,0 +1,70 @@
+Write a Figure interface and an abstract Quadrangle class. Figure should have the following methods:
+---
+double area();
+double perimeter().
+---
+
+The Quadrangle should have:
+---
+integer variable a - side a (sides);
+an integer variable b - side b (bottom and top sides);
+a string variable color;
+a constructor taking all these values (int a, int b, String color);
+abstract method getLargeDiagonal(), which returns a real (double) number - the large diagonal;
+the abstract getHeight() method, which returns a real (double) number - the height of the quadrilateral;
+the abstract getColor() method, which returns a string - color.
+---
+
+Create classes that should be descendants of the Quadrangle class and implement the Figure interface; for each class, implement finding its perimeter, area, diagonal, height.
+Create the classes listed below...
+
+Square (square):
+---
+must have a constructor that takes values (int a, String color), side b = a;
+method getLargeDiagonal() returns double - the diagonal of the square (you have to calculate);
+method getColor() returns a string - color;
+method getHeight() returns double - the height of the square (just a);
+the getArea() method returns double - the area of the square;
+The getPerimeter() method returns double - the perimeter of the square.
+---
+
+Rectangle:
+---
+Must be a constructor that takes values (int a int b, String color);
+The getLargeDiagonal() method returns double - the diagonal of the rectangle (you can use Math.sqrt() and Math.max() for this);
+method getColor() returns a string - color;
+the getHeight() method returns double - the smaller height of the rectangle (this is either a or b);
+ the getArea() method returns double - the area of the rectangle;
+ The getPerimeter() method returns double - the perimeter of the rectangle.
+---
+
+Rhombuses:
+---
+A real variable (double) alpha (the lower left corner of the rhombus, in degrees).
+a real variable (double) beta (upper left corner of the rhombus, in degrees).
+there must be a constructor that takes values (int a, double alpha, double beta, String color), b = a.
+method getLargeDiagonal() returns double - the greater diagonal of the rhombus (formulas are online, to use the trigonometric function, use Math.cos() or Math.sin(), to convert degrees to radians, use Math.toRadians());
+The getColor() method returns a string - color;
+the getHeight() method returns double - the height of the rhombus;
+The getArea() method returns double - the area of the diamond;
+The getPerimeter() method returns double - the perimeter of the rhombus.
+---
+
+Parallelogram:
+---
+A real variable (double) alpha (the lower left corner of the parallelogram in degrees);
+real variable (double) beta (the upper left corner of the parallelogram in degrees);
+there must be a constructor that takes values (int a, int b, double alpha, double beta, String color);
+method getLargeDiagonal() returns double - the large diagonal of the parallelogram (formulas are online, to use the trigonometric function, use Math.cos() or Math.sin());
+The getColor() method returns a string - color;
+the getHeight() method returns double - the LOWER height of the parallelogram;
+the getArea() method returns double - the area of the parallelogram;
+the getPerimeter() method returns double - the perimeter of the parallelogram.
+---
+
+Exercise Checker Output:
+Your solution was successfully submitted.
+You passed 100% of all tests.
+
+Took a few tries but 65% of the code was written right.
+35% off because the formulae were different in the answer compared to the ones that I have found.

@@ -1,0 +1,21 @@
+Create an abstract People class. It should have:
+- string field name;
+- an integer age field;
+- string field profession;
+- constructor that accepts String name, int age, String profession;
+- abstract getProfession() method, which returns a string - a person's profession;
+- abstract method getAge(), which returns an integer - the person's age;
+- abstract method getName(), which returns a string - the person's name.
+
+Create a Teacher class that is a descendant of the People class. It must have:
+- string subject field (the subject taught);
+- constructor that accepts name, age, profession and taught subject;
+- method getProfession should return a string - profession;
+- method getAge() should return an integer - age;
+- getName() method should return a string - name;
+- method getSubject() should return a string - taught subject;
+- the giveALesson() method should return a string - "The lesson was ended".
+
+Exercise Checker Output:
+Your solution was successfully submitted.
+You passed 100% of all tests.

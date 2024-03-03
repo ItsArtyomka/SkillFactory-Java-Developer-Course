@@ -1,0 +1,17 @@
+Create a Car class with an Engine class attached to it.
+
+The Car class must contain:
+- string variable carModel;
+- constructor that accepts carModel.
+
+The Engine class must have:
+- logical (boolean) field isWorking (default is false);
+- integer field horsepower;
+- constructor that accepts horsepower;
+- String startStopEngine() method;
+    if isWorking is true, the method should return "engine was stopped" and change isWorking to false,
+    otherwise "engine was started" and isWorking = true.
+
+Exercise Checker Output:
+Your solution was successfully submitted.
+You passed 100% of all tests.

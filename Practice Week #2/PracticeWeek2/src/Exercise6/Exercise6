@@ -1,0 +1,23 @@
+Write an abstract Vector class. It must have:
+
+- integer variables x1, y1, z1, x2, y2, z2 - coordinates of the beginning and end of the vector;
+- a constructor that takes these parameters (x1, y1, z1, x2, y2, z2);
+- abstract method getLength(), which returns a real (double) number - the length of the vector;
+- abstract method getVectorCords(), which returns a string (coordinates with spaces, for example: 2, 0, -1).
+
+Write a Vector2D class that is a descendant of the Vector class. It should have:
+- a constructor that accepts parameters x1, y1, x2, y2 (z1 and z2 are 0);
+- getLength() method, which returns the length of the vector (double);
+- getVectorCords() method, which returns a string (vector coordinates with a space);
+- getScalarProduct(Vector2D vector) method, which returns the scalar product of vectors (a real (double) number);
+- getAngle(Vector 2D vector) method, which returns a real value - the cosine of the angle (in radians) between the vectors, if they are not zero, otherwise the method should return -2.0.
+
+Write a Vector3D class that is a descendant of the Vector class. It should have:
+- a constructor that accepts parameters x1, y1, z1, x2, y2, z2;
+- getLength() method, which returns the length of the vector (double);
+- getVectorCords() method, which returns a string (vector coordinates with a space);
+- getScalarProduct(Vector3D vector) method (scalar product), which returns scalar product of vectors (real (double) number).
+
+Exercise Checker Output:
+Your solution was successfully submitted.
+You passed 100% of all tests.

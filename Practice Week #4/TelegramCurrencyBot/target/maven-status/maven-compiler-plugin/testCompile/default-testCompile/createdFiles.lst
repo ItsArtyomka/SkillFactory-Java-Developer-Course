@@ -1,0 +1,6 @@
+com\artyomka\telegramcurrencybot\controller\CurrencyControllerTest.class
+com\artyomka\telegramcurrencybot\TelegramCurrencyBotApplicationTests.class
+com\artyomka\telegramcurrencybot\service\FinanceServiceTest.class
+com\artyomka\telegramcurrencybot\repository\SpendRepositoryTest.class
+com\artyomka\telegramcurrencybot\repository\ActiveChatRepositoryTest.class
+com\artyomka\telegramcurrencybot\repository\IncomeRepositoryTest.class

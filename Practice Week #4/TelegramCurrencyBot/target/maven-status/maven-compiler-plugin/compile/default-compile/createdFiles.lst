@@ -1,0 +1,17 @@
+com\artyomka\telegramcurrencybot\dt\GetCursOnDateXmlResult.class
+com\artyomka\telegramcurrencybot\dt\ValuteCursOnDate.class
+com\artyomka\telegramcurrencybot\config\AppConfig.class
+com\artyomka\telegramcurrencybot\dt\GetCursOnDateXml.class
+com\artyomka\telegramcurrencybot\telegramchat\SpendRepository.class
+com\artyomka\telegramcurrencybot\service\FinanceService.class
+com\artyomka\telegramcurrencybot\telegramchat\ActiveChat.class
+com\artyomka\telegramcurrencybot\controller\CurrencyController.class
+com\artyomka\telegramcurrencybot\dt\GetCursOnDateXmlResponse.class
+com\artyomka\telegramcurrencybot\telegramchat\IncomeRepository.class
+com\artyomka\telegramcurrencybot\service\BotService.class
+com\artyomka\telegramcurrencybot\telegramchat\ActiveChatRepository.class
+com\artyomka\telegramcurrencybot\telegramchat\Income.class
+com\artyomka\telegramcurrencybot\service\ScheduleService.class
+com\artyomka\telegramcurrencybot\telegramchat\Spend.class
+com\artyomka\telegramcurrencybot\service\CentralRussianBankService.class
+com\artyomka\telegramcurrencybot\TelegramCurrencyBotApplication.class
